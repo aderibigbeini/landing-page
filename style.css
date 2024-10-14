@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+    background: url(/aesthetic-living-room.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+.back{
+    background: black;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+    gap: 50px;
+}
+button{
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
